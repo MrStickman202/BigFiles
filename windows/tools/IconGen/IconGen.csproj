@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Draws the BigFiles icon in code and writes a multi-size .ico (16-256 px) plus a 256 px .png.
+       Usage (from the windows folder): dotnet run with project tools/IconGen, then the .ico and .png paths. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
